@@ -10,5 +10,13 @@ export default gql`
         updatedAt : String!
 		blogUrl	: String!
 		verifyYn : String!
+		bio : String
+		avatar : String
+		following : [User]
+		followers : [User]
+		totalFollowing : Int!
+		totalFollowers : Int!
+		isFollowing : Boolean!
+		isMe : Boolean!
     }
 `

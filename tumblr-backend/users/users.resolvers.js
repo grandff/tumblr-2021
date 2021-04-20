@@ -1,10 +1,7 @@
 import client from "../client";
 
 export default {
-	User : {
-		
-	}
-    /*User : {
+	 User : {
         totalFollowing : ({id}) => client.user.count({where : {
             followers : {
                 some : {
@@ -37,6 +34,7 @@ export default {
             }}});
             return Boolean(exists);
         },
-		photos : ({id}) => client.user.findUnique({where : {id}}).photos()
-    }*/
+		//photos : ({id}) => client.user.findUnique({where : {id}}).photos()
+    }
+   
 }

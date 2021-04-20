@@ -27,3 +27,8 @@
 - npm install express
 - npm install jsonwebtoken
 - npm install bcrypt
+
+
+
+## 진행 상황 모음
+- 21.04.20 : 유저 기능 완성(로컬에서 studio 켜서 테스트 해야함. 현재 팔로우 기능이 자꾸 안됨.)
